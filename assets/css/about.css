@@ -54,6 +54,8 @@ h1 {
 .section.visible {
   opacity: 1;
   transform: translateY(0);
+    padding: 30px;
+
 }
 
 h2 {
