@@ -30,6 +30,10 @@
   color: white;
   text-decoration: none;
 }
+.footer-section a:hover {
+  color: #0077ff !important;
+  text-decoration: none;
+}
 .fot-head{
   color: #21829A !important;
 }

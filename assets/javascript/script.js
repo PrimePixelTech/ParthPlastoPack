@@ -105,3 +105,39 @@ $('.owl-carousel').owlCarousel({
                 });
             });
         });
+
+
+        //counter effect
+
+        
+    const counterEl = document.getElementById('counter');
+    const counterBox = document.getElementById('counterBox');
+    let hasCounted = false;
+
+    const animateCounter = () => {
+      let count = 0;
+      const target = 500;
+      const duration = 2000;
+      const stepTime = Math.floor(duration / target);
+
+      const interval = setInterval(() => {
+        count++;
+        counterEl.textContent = count + "+";
+        if (count >= target) {
+          clearInterval(interval);
+        }
+      }, stepTime);
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && !hasCounted) {
+          animateCounter();
+          hasCounted = true;
+        }
+      });
+    }, {
+      threshold: 0.5
+    });
+
+    observer.observe(counterBox);

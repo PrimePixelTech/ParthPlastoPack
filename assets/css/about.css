@@ -117,7 +117,34 @@ p {
   margin-bottom: 1rem;
   color: var(--text-color);
 }
+.counter-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  
+}
 
+.counter-box {
+  /* background: #fff; */
+  padding: 25px 30px;
+  border-radius: 16px;
+  /* box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08); */
+  text-align: center;
+}
+
+.counter {
+  font-size: 4rem;
+  color: var(--text-color);
+  font-weight: 700;
+}
+
+.label {
+  margin-top: 15px;
+  font-size: 1.3rem;
+  color: #444;
+  font-weight: 500;
+}
 /* Gallery Section */
 .gallery {
   display: grid;
