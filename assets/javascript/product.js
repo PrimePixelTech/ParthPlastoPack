@@ -411,8 +411,8 @@
         },
         {
           id: 20,
-          title: "IML Supplement Container",
-          imageSrc: "./assets/images/products/cap.webp",
+          title: "Push-Fit Plastic Cap",
+          imageSrc: "./assets/images/products/Cap.webp",
           code: "IML-01",
           description: "A versatile and durable container perfect for powders and supplements. Features In-Mould Labeling (IML) for a seamless finish and a secure push-fitting cap. Ideal for protein powders, nutritional supplements, and health products.",
           specifications: [
