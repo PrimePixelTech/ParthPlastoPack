@@ -4,7 +4,7 @@
         {
           id: 1,
           title: "IML Supplement Container",
-          imageSrc: "./assets/images/products/product1.webp",
+          imageSrc: "./assets/images/products/jar1.webp",
           code: "IML-01",
           description: "A versatile and durable container perfect for powders and supplements. Features In-Mould Labeling (IML) for a seamless finish and a secure push-fitting cap. Ideal for protein powders, nutritional supplements, and health products.",
           specifications: [
@@ -27,7 +27,7 @@
         {
           id: 2,
           title: "Large Powder Container",
-          imageSrc: "./assets/images/products/product2.webp",
+          imageSrc: "./assets/images/products/jar2.webp",
           code: "IML-02",
           description: "Our largest capacity container, ideal for bulk protein powders and nutritional products. Features a sturdy build and a wide mouth for easy scooping. Perfect for gym supplements and wholesale packaging.",
           specifications: [
@@ -50,7 +50,7 @@
         {
           id: 3,
           title: "Chocolate Powder Jar",
-          imageSrc: "./assets/images/products/product3.webp",
+          imageSrc: "./assets/images/products/jar3.webp",
           code: "IML-03",
           description: "A beautifully designed jar for premium chocolate-flavored powders and drink mixes. The IML label offers vibrant, full-color graphics. Perfect for health drinks, cocoa powders, and flavored supplements.",
           specifications: [
@@ -73,7 +73,7 @@
         {
           id: 4,
           title: "Weight Management Tub",
-          imageSrc: "./assets/images/products/product4.webp",
+          imageSrc: "./assets/images/products/jar4.webp",
           code: "WMT-01",
           description: "Sleek and modern tub designed specifically for weight management products. Features a wide opening for easy access and a secure lid to maintain product freshness. Ideal for meal replacements and diet supplements.",
           specifications: [
@@ -93,9 +93,32 @@
           category: "jars"
         },
         {
+          id: 5,
+          title: "IML Supplement Container",
+          imageSrc: "./assets/images/products/jar5.webp",
+          code: "IML-01",
+          description: "A versatile and durable container perfect for powders and supplements. Features In-Mould Labeling (IML) for a seamless finish and a secure push-fitting cap. Ideal for protein powders, nutritional supplements, and health products.",
+          specifications: [
+            { label: "Over Flow Volume", value: "560 +/- 20 ML" },
+            { label: "Height Of Container", value: "114 +/- 1 MM" },
+            { label: "Neck Size", value: "84 +/- 0.5 MM" },
+            { label: "Maximum Dia Of Container", value: "82 +/- 0.5 MM" },
+            { label: "Wall Thickness", value: "0.8 +/- 0.1 MM" },
+            { label: "Cap Fitting", value: "Push fitting" },
+            { label: "Label Type", value: "Label & IML" },
+            { label: "Weight Of Container (With Cap)", value: "38 +/- 2 GM" },
+            { label: "Powder Volume (Approx)", value: "200 To 250 GM" },
+            { label: "Material", value: "Food-grade PP plastic" },
+            { label: "MOQ", value: "1000 units" },
+            { label: "Lead Time", value: "15-20 days" }
+          ],
+          category: "jars",
+          featured: true
+        },
+        {
           id: 6,
           title: "Large Effervescent Tablet Tube",
-          imageSrc: "./assets/images/products/tube3.webp",
+          imageSrc: "./assets/images/products/jar6.webp",
           code: "LET-10",
           description: "Large capacity tube designed specifically for effervescent tablets. Features a moisture-proof design and secure cap to maintain product integrity. Perfect for vitamin C, electrolyte, and medicinal tablets.",
           specifications: [
@@ -116,7 +139,7 @@
         {
           id: 7,
           title: "Large Vitamin C Tablet Tube",
-          imageSrc: "./assets/images/products/tube4.webp",
+          imageSrc: "./assets/images/products/jar7.webp",
           code: "LVT-15",
           description: "Premium large tube with child-resistant cap, specially designed for vitamin C tablets. Offers excellent protection against moisture and UV light. Features a transparent body for product visibility.",
           specifications: [
@@ -136,7 +159,7 @@
         {
           id: 8,
           title: "Medium Cough Support Tablet Tube",
-          imageSrc: "./assets/images/products/tube5.webp",
+          imageSrc: "./assets/images/products/jar8.webp",
           code: "MCT-20",
           description: "Medium-sized tube perfect for cough and cold tablets. Features a secure screw-top cap and tamper-evident seal. The opaque design helps protect light-sensitive ingredients.",
           specifications: [
@@ -157,7 +180,7 @@
         {
           id: 9,
           title: "Medium High-Potency Vitamin Tube",
-          imageSrc: "./assets/images/products/tube6.webp",
+          imageSrc: "./assets/images/products/tube1.webp",
           code: "MHV-10",
           description: "Medium tube designed for high-potency vitamins and supplements. Features a moisture-absorbing liner in the cap to extend product shelf life. The wide mouth allows for easy tablet access.",
           specifications: [
@@ -175,30 +198,76 @@
           subcategory: "medium-tubes"
         },
         {
-          id: 12,
-          title: "Small Immune Booster Tablet Tube",
-          imageSrc: "./assets/images/products/tube7.webp",
-          code: "SIT-25",
-          description: "Compact and portable tube perfect for immune booster tablets. The small size makes it ideal for travel or daily carry. Features a secure flip-top cap for easy one-handed operation.",
+          id: 10,
+          title: "IML Supplement Container",
+          imageSrc: "./assets/images/products/tube2.webp",
+          code: "IML-01",
+          description: "A versatile and durable container perfect for powders and supplements. Features In-Mould Labeling (IML) for a seamless finish and a secure push-fitting cap. Ideal for protein powders, nutritional supplements, and health products.",
           specifications: [
-            { label: "Capacity", value: "30 tablets" },
-            { label: "Height", value: "120 +/- 1 MM" },
-            { label: "Diameter", value: "40 +/- 0.5 MM" },
-            { label: "Wall Thickness", value: "0.7 +/- 0.1 MM" },
-            { label: "Cap Type", value: "Flip-top" },
-            { label: "Material", value: "PP plastic" },
-            { label: "Weight", value: "25 +/- 1 GM" },
-            { label: "MOQ", value: "5000 units" },
-            { label: "Lead Time", value: "8-10 days" }
+            { label: "Over Flow Volume", value: "560 +/- 20 ML" },
+            { label: "Height Of Container", value: "114 +/- 1 MM" },
+            { label: "Neck Size", value: "84 +/- 0.5 MM" },
+            { label: "Maximum Dia Of Container", value: "82 +/- 0.5 MM" },
+            { label: "Wall Thickness", value: "0.8 +/- 0.1 MM" },
+            { label: "Cap Fitting", value: "Push fitting" },
+            { label: "Label Type", value: "Label & IML" },
+            { label: "Weight Of Container (With Cap)", value: "38 +/- 2 GM" },
+            { label: "Powder Volume (Approx)", value: "200 To 250 GM" },
+            { label: "Material", value: "Food-grade PP plastic" },
+            { label: "MOQ", value: "1000 units" },
+            { label: "Lead Time", value: "15-20 days" }
           ],
-          category: "tubes",
-          subcategory: "small-tubes",
+          category: "jars",
           featured: true
         },
         {
+          id: 11,
+          title: "IML Supplement Container",
+          imageSrc: "./assets/images/products/tube3.webp",
+          code: "IML-01",
+          description: "A versatile and durable container perfect for powders and supplements. Features In-Mould Labeling (IML) for a seamless finish and a secure push-fitting cap. Ideal for protein powders, nutritional supplements, and health products.",
+          specifications: [
+            { label: "Over Flow Volume", value: "560 +/- 20 ML" },
+            { label: "Height Of Container", value: "114 +/- 1 MM" },
+            { label: "Neck Size", value: "84 +/- 0.5 MM" },
+            { label: "Maximum Dia Of Container", value: "82 +/- 0.5 MM" },
+            { label: "Wall Thickness", value: "0.8 +/- 0.1 MM" },
+            { label: "Cap Fitting", value: "Push fitting" },
+            { label: "Label Type", value: "Label & IML" },
+            { label: "Weight Of Container (With Cap)", value: "38 +/- 2 GM" },
+            { label: "Powder Volume (Approx)", value: "200 To 250 GM" },
+            { label: "Material", value: "Food-grade PP plastic" },
+            { label: "MOQ", value: "1000 units" },
+            { label: "Lead Time", value: "15-20 days" }
+          ],
+          category: "jars",
+          featured: true
+        },
+        // {
+        //   id: 12,
+        //   title: "Small Immune Booster Tablet Tube",
+        //   imageSrc: "./assets/images/products/tube4.webp",
+        //   code: "SIT-25",
+        //   description: "Compact and portable tube perfect for immune booster tablets. The small size makes it ideal for travel or daily carry. Features a secure flip-top cap for easy one-handed operation.",
+        //   specifications: [
+        //     { label: "Capacity", value: "30 tablets" },
+        //     { label: "Height", value: "120 +/- 1 MM" },
+        //     { label: "Diameter", value: "40 +/- 0.5 MM" },
+        //     { label: "Wall Thickness", value: "0.7 +/- 0.1 MM" },
+        //     { label: "Cap Type", value: "Flip-top" },
+        //     { label: "Material", value: "PP plastic" },
+        //     { label: "Weight", value: "25 +/- 1 GM" },
+        //     { label: "MOQ", value: "5000 units" },
+        //     { label: "Lead Time", value: "8-10 days" }
+        //   ],
+        //   category: "tubes",
+        //   subcategory: "small-tubes",
+        //   featured: true
+        // },
+        {
           id: 13,
           title: "Small Antioxidant Support Tube",
-          imageSrc: "./assets/images/products/product13.webp",
+          imageSrc: "./assets/images/products/tube5.webp",
           code: "SAT-12",
           description: "Small tube designed for antioxidant supplements. Features a sleek design with a transparent window to view contents. The secure cap ensures product freshness and prevents spills.",
           specifications: [
@@ -218,7 +287,7 @@
         {
           id: 14,
           title: "Push-Fit Plastic Cap",
-          imageSrc: "./assets/images/products/product1.webp",
+          imageSrc: "./assets/images/products/tube6.webp",
           code: "PFC-01",
           description: "High-quality push-fit cap suitable for various container sizes. Features a secure snap-fit design that ensures a tight seal while being easy to open. Made from durable, food-grade plastic.",
           specifications: [
@@ -237,7 +306,7 @@
         {
           id: 15,
           title: "Screw-On Container Cap",
-          imageSrc: "./assets/images/products/product2.webp",
+          imageSrc: "./assets/images/products/tube7.webp",
           code: "SOC-02",
           description: "Durable screw-on cap with integrated liner for an airtight seal. Designed to fit standard container openings. The ergonomic design provides excellent grip for easy opening and closing.",
           specifications: [
@@ -255,7 +324,7 @@
         {
           id: 16,
           title: "Sealed Lid with Gasket",
-          imageSrc: "./assets/images/products/product3.webp",
+          imageSrc: "./assets/images/products/tube8.webp",
           code: "SLG-03",
           description: "Premium lid with integrated silicone gasket for superior airtight sealing. Ideal for products requiring maximum freshness protection. The wide flange design ensures a perfect fit every time.",
           specifications: [
@@ -270,7 +339,99 @@
           ],
           category: "caps",
           featured: true
-        }
+        },
+        {
+          id: 17,
+          title: "IML Supplement Container",
+          imageSrc: "./assets/images/products/smtube1.webp",
+          code: "IML-01",
+          description: "A versatile and durable container perfect for powders and supplements. Features In-Mould Labeling (IML) for a seamless finish and a secure push-fitting cap. Ideal for protein powders, nutritional supplements, and health products.",
+          specifications: [
+            { label: "Over Flow Volume", value: "560 +/- 20 ML" },
+            { label: "Height Of Container", value: "114 +/- 1 MM" },
+            { label: "Neck Size", value: "84 +/- 0.5 MM" },
+            { label: "Maximum Dia Of Container", value: "82 +/- 0.5 MM" },
+            { label: "Wall Thickness", value: "0.8 +/- 0.1 MM" },
+            { label: "Cap Fitting", value: "Push fitting" },
+            { label: "Label Type", value: "Label & IML" },
+            { label: "Weight Of Container (With Cap)", value: "38 +/- 2 GM" },
+            { label: "Powder Volume (Approx)", value: "200 To 250 GM" },
+            { label: "Material", value: "Food-grade PP plastic" },
+            { label: "MOQ", value: "1000 units" },
+            { label: "Lead Time", value: "15-20 days" }
+          ],
+          category: "jars",
+          featured: true
+        },
+        {
+          id: 18,
+          title: "IML Supplement Container",
+          imageSrc: "./assets/images/products/smtube2.webp",
+          code: "IML-01",
+          description: "A versatile and durable container perfect for powders and supplements. Features In-Mould Labeling (IML) for a seamless finish and a secure push-fitting cap. Ideal for protein powders, nutritional supplements, and health products.",
+          specifications: [
+            { label: "Over Flow Volume", value: "560 +/- 20 ML" },
+            { label: "Height Of Container", value: "114 +/- 1 MM" },
+            { label: "Neck Size", value: "84 +/- 0.5 MM" },
+            { label: "Maximum Dia Of Container", value: "82 +/- 0.5 MM" },
+            { label: "Wall Thickness", value: "0.8 +/- 0.1 MM" },
+            { label: "Cap Fitting", value: "Push fitting" },
+            { label: "Label Type", value: "Label & IML" },
+            { label: "Weight Of Container (With Cap)", value: "38 +/- 2 GM" },
+            { label: "Powder Volume (Approx)", value: "200 To 250 GM" },
+            { label: "Material", value: "Food-grade PP plastic" },
+            { label: "MOQ", value: "1000 units" },
+            { label: "Lead Time", value: "15-20 days" }
+          ],
+          category: "jars",
+          featured: true
+        },
+        {
+          id: 19,
+          title: "IML Supplement Container",
+          imageSrc: "./assets/images/products/smtube3.webp",
+          code: "IML-01",
+          description: "A versatile and durable container perfect for powders and supplements. Features In-Mould Labeling (IML) for a seamless finish and a secure push-fitting cap. Ideal for protein powders, nutritional supplements, and health products.",
+          specifications: [
+            { label: "Over Flow Volume", value: "560 +/- 20 ML" },
+            { label: "Height Of Container", value: "114 +/- 1 MM" },
+            { label: "Neck Size", value: "84 +/- 0.5 MM" },
+            { label: "Maximum Dia Of Container", value: "82 +/- 0.5 MM" },
+            { label: "Wall Thickness", value: "0.8 +/- 0.1 MM" },
+            { label: "Cap Fitting", value: "Push fitting" },
+            { label: "Label Type", value: "Label & IML" },
+            { label: "Weight Of Container (With Cap)", value: "38 +/- 2 GM" },
+            { label: "Powder Volume (Approx)", value: "200 To 250 GM" },
+            { label: "Material", value: "Food-grade PP plastic" },
+            { label: "MOQ", value: "1000 units" },
+            { label: "Lead Time", value: "15-20 days" }
+          ],
+          category: "jars",
+          featured: true
+        },
+        {
+          id: 20,
+          title: "IML Supplement Container",
+          imageSrc: "./assets/images/products/cap.webp",
+          code: "IML-01",
+          description: "A versatile and durable container perfect for powders and supplements. Features In-Mould Labeling (IML) for a seamless finish and a secure push-fitting cap. Ideal for protein powders, nutritional supplements, and health products.",
+          specifications: [
+            { label: "Over Flow Volume", value: "560 +/- 20 ML" },
+            { label: "Height Of Container", value: "114 +/- 1 MM" },
+            { label: "Neck Size", value: "84 +/- 0.5 MM" },
+            { label: "Maximum Dia Of Container", value: "82 +/- 0.5 MM" },
+            { label: "Wall Thickness", value: "0.8 +/- 0.1 MM" },
+            { label: "Cap Fitting", value: "Push fitting" },
+            { label: "Label Type", value: "Label & IML" },
+            { label: "Weight Of Container (With Cap)", value: "38 +/- 2 GM" },
+            { label: "Powder Volume (Approx)", value: "200 To 250 GM" },
+            { label: "Material", value: "Food-grade PP plastic" },
+            { label: "MOQ", value: "1000 units" },
+            { label: "Lead Time", value: "15-20 days" }
+          ],
+          category: "jars",
+          featured: true
+        },
       ];
 
       // --- INITIALIZATION ---
