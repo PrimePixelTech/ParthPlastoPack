@@ -15,11 +15,11 @@ const productsData = [
       id: 2, title: "Large Powder Container", imageSrc: "./assets/images/products/jar2.webp", code: "JAR-02",
       description: "Our largest capacity container, ideal for bulk protein powders and nutritional products. Features a sturdy build and a wide mouth for easy scooping. Perfect for gym supplements and wholesale packaging.",
       specifications: [
-          { label: "Over Flow Volume", value: "2500 +/- 50 ML" }, { label: "Height Of Container", value: "220 +/- 2 MM" },
-          { label: "Neck Size", value: "120 +/- 0.5 MM" }, { label: "Maximum Dia Of Container", value: "150 +/- 0.5 MM" },
-          { label: "Wall Thickness", value: "1.2 +/- 0.1 MM" }, { label: "Cap Fitting", value: "Screw-on" },
-          { label: "Label Type", value: "Shrink Sleeve / IML" }, { label: "Weight Of Container (With Cap)", value: "120 +/- 5 GM" },
-          { label: "Powder Volume (Approx)", value: "1000 To 1200 GM" }, { label: "Material", value: "Food-grade HDPE" }
+        { label: "Over Flow Volume", value: "560 +/- 20 ML" }, { label: "Height Of Container", value: "114 +/- 1 MM" },
+        { label: "Neck Size", value: "84 +/- 0.5 MM" }, { label: "Maximum Dia Of Container", value: "82 +/- 0.5 MM" },
+        { label: "Wall Thickness", value: "0.8 +/- 0.1 MM" }, { label: "Cap Fitting", value: "Push fitting" },
+        { label: "Label Type", value: "Label & IML" }, { label: "Weight Of Container (With Cap)", value: "38 +/- 2 GM" },
+        { label: "Powder Volume (Approx)", value: "200 To 250 GM" }, { label: "Material", value: "Food-grade PP plastic" }
       ],
       category: "jars", featured: true
   },
@@ -27,11 +27,11 @@ const productsData = [
       id: 3, title: "Chocolate Powder Jar", imageSrc: "./assets/images/products/jar3.webp", code: "JAR-03",
       description: "A beautifully designed jar for premium chocolate-flavored powders and drink mixes. The IML label offers vibrant, full-color graphics. Perfect for health drinks, cocoa powders, and flavored supplements.",
       specifications: [
-          { label: "Over Flow Volume", value: "800 +/- 20 ML" }, { label: "Height Of Container", value: "150 +/- 1 MM" },
-          { label: "Neck Size", value: "100 +/- 0.5 MM" }, { label: "Maximum Dia Of Container", value: "105 +/- 0.5 MM" },
-          { label: "Wall Thickness", value: "1.0 +/- 0.1 MM" }, { label: "Cap Fitting", value: "Push fitting with seal" },
-          { label: "Label Type", value: "Full-wrap IML" }, { label: "Weight Of Container (With Cap)", value: "55 +/- 3 GM" },
-          { label: "Powder Volume (Approx)", value: "300 To 350 GM" }, { label: "Material", value: "Food-grade PP" }
+        { label: "Over Flow Volume", value: "560 +/- 20 ML" }, { label: "Height Of Container", value: "114 +/- 1 MM" },
+        { label: "Neck Size", value: "84 +/- 0.5 MM" }, { label: "Maximum Dia Of Container", value: "82 +/- 0.5 MM" },
+        { label: "Wall Thickness", value: "0.8 +/- 0.1 MM" }, { label: "Cap Fitting", value: "Push fitting" },
+        { label: "Label Type", value: "Label & IML" }, { label: "Weight Of Container (With Cap)", value: "38 +/- 2 GM" },
+        { label: "Powder Volume (Approx)", value: "200 To 250 GM" }, { label: "Material", value: "Food-grade PP plastic" }
       ],
       category: "jars", featured: true
   },
@@ -39,11 +39,11 @@ const productsData = [
       id: 4, title: "Weight Management Tub", imageSrc: "./assets/images/products/jar4.webp", code: "JAR-04",
       description: "Sleek and modern tub designed specifically for weight management products. Features a wide opening for easy access and a secure lid to maintain product freshness. Ideal for meal replacements and diet supplements.",
       specifications: [
-          { label: "Over Flow Volume", value: "1200 +/- 30 ML" }, { label: "Height Of Container", value: "130 +/- 1 MM" },
-          { label: "Neck Size", value: "120 +/- 0.5 MM" }, { label: "Maximum Dia Of Container", value: "125 +/- 0.5 MM" },
-          { label: "Wall Thickness", value: "1.1 +/- 0.1 MM" }, { label: "Cap Fitting", value: "Push fitting" },
-          { label: "Label Type", value: "IML / Sticker" }, { label: "Weight Of Container (With Cap)", value: "75 +/- 4 GM" },
-          { label: "Powder Volume (Approx)", value: "500 GM" }, { label: "Material", value: "Food-grade PP plastic" }
+        { label: "Over Flow Volume", value: "560 +/- 20 ML" }, { label: "Height Of Container", value: "114 +/- 1 MM" },
+        { label: "Neck Size", value: "84 +/- 0.5 MM" }, { label: "Maximum Dia Of Container", value: "82 +/- 0.5 MM" },
+        { label: "Wall Thickness", value: "0.8 +/- 0.1 MM" }, { label: "Cap Fitting", value: "Push fitting" },
+        { label: "Label Type", value: "Label & IML" }, { label: "Weight Of Container (With Cap)", value: "38 +/- 2 GM" },
+        { label: "Powder Volume (Approx)", value: "200 To 250 GM" }, { label: "Material", value: "Food-grade PP plastic" }
       ],
       category: "jars"
   },
@@ -51,11 +51,11 @@ const productsData = [
       id: 5, title: "Compact Powder Jar", imageSrc: "./assets/images/products/jar5.webp", code: "JAR-05",
       description: "A compact and efficient container for smaller-volume powders and supplements. Its robust design with IML makes it a premium choice for trial packs or concentrated formulas.",
       specifications: [
-          { label: "Over Flow Volume", value: "300 +/- 15 ML" }, { label: "Height Of Container", value: "90 +/- 1 MM" },
-          { label: "Neck Size", value: "70 +/- 0.5 MM" }, { label: "Maximum Dia Of Container", value: "72 +/- 0.5 MM" },
-          { label: "Wall Thickness", value: "0.7 +/- 0.1 MM" }, { label: "Cap Fitting", value: "Push fitting" },
-          { label: "Label Type", value: "IML" }, { label: "Weight Of Container (With Cap)", value: "28 +/- 2 GM" },
-          { label: "Powder Volume (Approx)", value: "100 To 150 GM" }, { label: "Material", value: "Food-grade PP plastic" }
+        { label: "Over Flow Volume", value: "560 +/- 20 ML" }, { label: "Height Of Container", value: "114 +/- 1 MM" },
+        { label: "Neck Size", value: "84 +/- 0.5 MM" }, { label: "Maximum Dia Of Container", value: "82 +/- 0.5 MM" },
+        { label: "Wall Thickness", value: "0.8 +/- 0.1 MM" }, { label: "Cap Fitting", value: "Push fitting" },
+        { label: "Label Type", value: "Label & IML" }, { label: "Weight Of Container (With Cap)", value: "38 +/- 2 GM" },
+        { label: "Powder Volume (Approx)", value: "200 To 250 GM" }, { label: "Material", value: "Food-grade PP plastic" }
       ],
       category: "jars"
   },
@@ -63,11 +63,11 @@ const productsData = [
       id: 6, title: "Mid-Size Gainer Tub", imageSrc: "./assets/images/products/jar6.webp", code: "JAR-06",
       description: "A mid-size tub perfect for mass gainers and larger supplement quantities. The sturdy handle-cap design ensures easy transport and handling.",
       specifications: [
-          { label: "Over Flow Volume", value: "4000 +/- 50 ML" }, { label: "Height Of Container", value: "250 +/- 2 MM" },
-          { label: "Neck Size", value: "120 +/- 0.5 MM" }, { label: "Maximum Dia Of Container", value: "180 +/- 0.5 MM" },
-          { label: "Wall Thickness", value: "1.5 +/- 0.1 MM" }, { label: "Cap Fitting", value: "Screw-on with handle" },
-          { label: "Label Type", value: "Shrink Sleeve" }, { label: "Weight Of Container (With Cap)", value: "180 +/- 10 GM" },
-          { label: "Powder Volume (Approx)", value: "2000 GM" }, { label: "Material", value: "Food-grade HDPE" }
+        { label: "Over Flow Volume", value: "560 +/- 20 ML" }, { label: "Height Of Container", value: "114 +/- 1 MM" },
+        { label: "Neck Size", value: "84 +/- 0.5 MM" }, { label: "Maximum Dia Of Container", value: "82 +/- 0.5 MM" },
+        { label: "Wall Thickness", value: "0.8 +/- 0.1 MM" }, { label: "Cap Fitting", value: "Push fitting" },
+        { label: "Label Type", value: "Label & IML" }, { label: "Weight Of Container (With Cap)", value: "38 +/- 2 GM" },
+        { label: "Powder Volume (Approx)", value: "200 To 250 GM" }, { label: "Material", value: "Food-grade PP plastic" }
       ],
       category: "jars"
   },
@@ -75,11 +75,11 @@ const productsData = [
       id: 7, title: "Pre-Workout Container", imageSrc: "./assets/images/products/jar7.webp", code: "JAR-07",
       description: "An aggressively styled container for pre-workout formulas. The vibrant IML capabilities and ergonomic shape make it stand out on any shelf.",
       specifications: [
-          { label: "Over Flow Volume", value: "450 +/- 20 ML" }, { label: "Height Of Container", value: "100 +/- 1 MM" },
-          { label: "Neck Size", "value": "90 +/- 0.5 MM" }, { label: "Maximum Dia Of Container", value: "95 +/- 0.5 MM" },
-          { label: "Wall Thickness", value: "0.9 +/- 0.1 MM" }, { label: "Cap Fitting", value: "Screw-on" },
-          { label: "Label Type", value: "IML" }, { label: "Weight Of Container (With Cap)", value: "45 +/- 3 GM" },
-          { label: "Powder Volume (Approx)", value: "200 GM" }, { label: "Material", value: "Food-grade PP plastic" }
+        { label: "Over Flow Volume", value: "560 +/- 20 ML" }, { label: "Height Of Container", value: "114 +/- 1 MM" },
+        { label: "Neck Size", value: "84 +/- 0.5 MM" }, { label: "Maximum Dia Of Container", value: "82 +/- 0.5 MM" },
+        { label: "Wall Thickness", value: "0.8 +/- 0.1 MM" }, { label: "Cap Fitting", value: "Push fitting" },
+        { label: "Label Type", value: "Label & IML" }, { label: "Weight Of Container (With Cap)", value: "38 +/- 2 GM" },
+        { label: "Powder Volume (Approx)", value: "200 To 250 GM" }, { label: "Material", value: "Food-grade PP plastic" }
       ],
       category: "jars"
   },
@@ -87,11 +87,11 @@ const productsData = [
       id: 8, title: "Herbal Powder Jar", imageSrc: "./assets/images/products/jar8.webp", code: "JAR-08",
       description: "A classic, clean design perfect for herbal powders, teas, and organic supplements. The push-fit cap ensures freshness and ease of use.",
       specifications: [
-          { label: "Over Flow Volume", value: "600 +/- 20 ML" }, { label: "Height Of Container", value: "120 +/- 1 MM" },
-          { label: "Neck Size", value: "84 +/- 0.5 MM" }, { label: "Maximum Dia Of Container", value: "88 +/- 0.5 MM" },
-          { label: "Wall Thickness", value: "0.8 +/- 0.1 MM" }, { label: "Cap Fitting", value: "Push fitting" },
-          { label: "Label Type", value: "Label & IML" }, { label: "Weight Of Container (With Cap)", value: "40 +/- 2 GM" },
-          { label: "Powder Volume (Approx)", value: "250 GM" }, { label: "Material", value: "Food-grade PP plastic" }
+        { label: "Over Flow Volume", value: "560 +/- 20 ML" }, { label: "Height Of Container", value: "114 +/- 1 MM" },
+        { label: "Neck Size", value: "84 +/- 0.5 MM" }, { label: "Maximum Dia Of Container", value: "82 +/- 0.5 MM" },
+        { label: "Wall Thickness", value: "0.8 +/- 0.1 MM" }, { label: "Cap Fitting", value: "Push fitting" },
+        { label: "Label Type", value: "Label & IML" }, { label: "Weight Of Container (With Cap)", value: "38 +/- 2 GM" },
+        { label: "Powder Volume (Approx)", value: "200 To 250 GM" }, { label: "Material", value: "Food-grade PP plastic" }
       ],
       category: "jars"
   },
@@ -99,11 +99,11 @@ const productsData = [
       id: 21, title: "Herbal Powder Jar", imageSrc: "./assets/images/products/jar9.webp", code: "JAR-08",
       description: "A classic, clean design perfect for herbal powders, teas, and organic supplements. The push-fit cap ensures freshness and ease of use.",
       specifications: [
-          { label: "Over Flow Volume", value: "600 +/- 20 ML" }, { label: "Height Of Container", value: "120 +/- 1 MM" },
-          { label: "Neck Size", value: "84 +/- 0.5 MM" }, { label: "Maximum Dia Of Container", value: "88 +/- 0.5 MM" },
-          { label: "Wall Thickness", value: "0.8 +/- 0.1 MM" }, { label: "Cap Fitting", value: "Push fitting" },
-          { label: "Label Type", value: "Label & IML" }, { label: "Weight Of Container (With Cap)", value: "40 +/- 2 GM" },
-          { label: "Powder Volume (Approx)", value: "250 GM" }, { label: "Material", value: "Food-grade PP plastic" }
+        { label: "Over Flow Volume", value: "560 +/- 20 ML" }, { label: "Height Of Container", value: "114 +/- 1 MM" },
+        { label: "Neck Size", value: "84 +/- 0.5 MM" }, { label: "Maximum Dia Of Container", value: "82 +/- 0.5 MM" },
+        { label: "Wall Thickness", value: "0.8 +/- 0.1 MM" }, { label: "Cap Fitting", value: "Push fitting" },
+        { label: "Label Type", value: "Label & IML" }, { label: "Weight Of Container (With Cap)", value: "38 +/- 2 GM" },
+        { label: "Powder Volume (Approx)", value: "200 To 250 GM" }, { label: "Material", value: "Food-grade PP plastic" }
       ],
       category: "jars"
   },
@@ -111,11 +111,11 @@ const productsData = [
       id: 22, title: "Herbal Powder Jar", imageSrc: "./assets/images/products/jar10.webp", code: "JAR-08",
       description: "A classic, clean design perfect for herbal powders, teas, and organic supplements. The push-fit cap ensures freshness and ease of use.",
       specifications: [
-          { label: "Over Flow Volume", value: "600 +/- 20 ML" }, { label: "Height Of Container", value: "120 +/- 1 MM" },
-          { label: "Neck Size", value: "84 +/- 0.5 MM" }, { label: "Maximum Dia Of Container", value: "88 +/- 0.5 MM" },
-          { label: "Wall Thickness", value: "0.8 +/- 0.1 MM" }, { label: "Cap Fitting", value: "Push fitting" },
-          { label: "Label Type", value: "Label & IML" }, { label: "Weight Of Container (With Cap)", value: "40 +/- 2 GM" },
-          { label: "Powder Volume (Approx)", value: "250 GM" }, { label: "Material", value: "Food-grade PP plastic" }
+        { label: "Over Flow Volume", value: "560 +/- 20 ML" }, { label: "Height Of Container", value: "114 +/- 1 MM" },
+        { label: "Neck Size", value: "84 +/- 0.5 MM" }, { label: "Maximum Dia Of Container", value: "82 +/- 0.5 MM" },
+        { label: "Wall Thickness", value: "0.8 +/- 0.1 MM" }, { label: "Cap Fitting", value: "Push fitting" },
+        { label: "Label Type", value: "Label & IML" }, { label: "Weight Of Container (With Cap)", value: "38 +/- 2 GM" },
+        { label: "Powder Volume (Approx)", value: "200 To 250 GM" }, { label: "Material", value: "Food-grade PP plastic" }
       ],
       category: "jars"
   },
