@@ -1011,7 +1011,7 @@ footer p {
   .popup-container {
     width: 90%;
     height: 90%;
-    /* max-height: 100vh; */
+    max-height: 100vh;
     border-radius: 0;
     margin: 50px 5% 0 5%;
     top: 0;
