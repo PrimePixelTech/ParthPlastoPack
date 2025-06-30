@@ -959,8 +959,7 @@ footer p {
     transform: translateX(-50%) translateY(-2px);
   }
   .popup-container {
-    /* width: 90% !important; */
-    /* margin: 50px 5% 0 5%; */
+    width: 90% !important;
     /* max-height: calc(100vh- 100px) !important; */
   }
   .popup-header {
@@ -1010,10 +1009,11 @@ footer p {
     font-size: 1.2rem;
   }
   .popup-container {
-    /* width: 90%; */
+    width: 90%;
     height: 90%;
-    max-height: 100vh;
+    /* max-height: 100vh; */
     border-radius: 0;
+    margin: 50px 5% 0 5%;
     top: 0;
     left: 0;
     transform: none;
